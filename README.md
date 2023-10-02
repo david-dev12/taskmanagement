@@ -44,6 +44,18 @@ project, such as .NET SDK, Node.js, PostgreSQL , and npm.
 
    `npm install`
 
+7. Change appsetting.json
+
+   - Change database config
+
+     `"DefaultConnection": "Host=localhost;Database=taskManagement;Username=postgres;Password=123456"`
+
+   - Change jwt key
+
+     "Key": "ThisIsASecretKey",
+
+     "Issuer": "YourIssuer"
+
 ### Running the Application
 
 1. Start the server from the server project directory
